@@ -640,7 +640,6 @@ body {
   text-transform: capitalize;
   font-size: 1.6rem;
   margin-bottom: 1.5rem;
-  cursor: pointer;
 }
 
 .contact__section--form .form__text {

@@ -425,7 +425,10 @@ body {
       grid-template-columns: repeat(2, 1fr);
   -ms-grid-rows: 25rem (5rem)[3];
       grid-template-rows: 25rem repeat(3, 5rem);
-      grid-template-areas: "pics pics" "name price" "color life" "btn btn";
+      grid-template-areas: "pics pics"
+ "name price"
+ "color life"
+ "btn btn";
   -webkit-transition: all .2s;
   transition: all .2s;
 }
@@ -637,6 +640,7 @@ body {
   text-transform: capitalize;
   font-size: 1.6rem;
   margin-bottom: 1.5rem;
+  cursor: pointer;
 }
 
 .contact__section--form .form__text {
